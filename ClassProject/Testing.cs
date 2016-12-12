@@ -8,5 +8,6 @@ namespace ClassProject
 {
     class Testing
     {
+        a
     }
 }
