@@ -16,7 +16,8 @@ namespace ClassProject
             wow.AddObject(5);
             wow.AddObject(7);
             wow.AddObject(12);
-            wow.RemoveObject(12);
+            wow.RemoveObject(7);
+            wow.Count();
             wow.Print();
             Console.ReadLine();
             
