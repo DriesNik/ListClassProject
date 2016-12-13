@@ -56,11 +56,14 @@ namespace ClassProject
             temporaryArray[mainArray.Length] = itemToAdd;
             mainArray = temporaryArray;
         }
-        public void OverrideToString()
+        
+            public override string ToString()
         {
-
+            return "10";
         }
-        public IEnumerator<T> GetEnumerator()
+
+    
+    public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < mainArray.Length; i++)
             {
