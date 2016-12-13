@@ -73,7 +73,14 @@ namespace ClassProject
         }
         public void EnumerableZip()
         {
+            //may need to be in seperate class
 
+        }
+        public void Count()
+        {
+            int Counted;
+            Counted = mainArray.Length;
+            Console.WriteLine(Counted + " Items");
         }
     }
 }
